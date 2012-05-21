@@ -1,4 +1,4 @@
-<XMLDB PATH="local/cal/db" VERSION="20120502" COMMENT="XMLDB file for Moodle local/cal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd">
+<XMLDB PATH="local/extradata/db" VERSION="20120502" COMMENT="XMLDB file for Moodle local/extradata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd">
   <TABLES>
     <TABLE NAME="extradata_fileinfo" COMMENT="The details provided by a user when uploading a file">
       <FIELDS>

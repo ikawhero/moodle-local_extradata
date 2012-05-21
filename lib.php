@@ -3,7 +3,7 @@
 /**
  * Extradata Library
  *
- * @package   localcal
+ * @package   localextradata
  * @copyright Xenu and Megalodon
  * @author    Mark Nelson <mark@moodle.com.au>, Pukunui Technology
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
@@ -91,8 +91,8 @@ function local_extradata_process_file_upload_info($data) {
 }
 
 /**
- * The local cal cron job, handles
- * sending emails etc.
+ * The local cron job, handles
+ * updating the file information.
  */
 function local_extradata_cron() {
     global $DB;
